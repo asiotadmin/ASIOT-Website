@@ -14,7 +14,7 @@ const Navbar = () => {
           
           <nav>
           <a href="/" className="logo">
-            <img src={ASIOT_Logo2} alt="Logo" />
+            <img src={ASIOT_Logo2} alt="Logo" className='asiot-logo'/>
           </a>
             {/* <span className="logo">ASIOT Technologies</span> */}
             <div className="menu-btn-3" onClick={handleClick}>
