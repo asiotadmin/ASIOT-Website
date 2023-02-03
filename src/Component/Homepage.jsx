@@ -1,6 +1,29 @@
 import React from 'react'
 import mobileDevlopment from "../assets/mobileDevlopment.png"
 import delivery_experience from "../assets/delivery_experience.png"
+import Visa from "../assets/Visa.png"
+import Suzuki_logo from "../assets/Suzuki_logo.png"
+import Logo_NIKE from "../assets/Logo_NIKE.png"
+import LG from "../assets/LG.png"
+import ESPN from "../assets/ESPN.png"
+import BMW from "../assets/BMW.png"
+import audi from "../assets/audi.jpg"
+import Allianz from "../assets/Allianz.png"
+import analyzing from "../assets/analyzing.jpg"
+import aws from "../assets/aws.png"
+import Dell from "../assets/Dell.png"
+import Intel from "../assets/Intel.png"
+import ibm from "../assets/ibm.png"
+import Microsoft from "../assets/Microsoft.png"
+import Nasscom from "../assets/Nasscom.png"
+import Samsung from "../assets/Samsung.png"
+import Nvidia from "../assets/Nvidia.png"
+import tm from "../assets/tm.png"
+import tata from "../assets/tata.png"
+import Infosys_logo from "../assets/Infosys_logo.png"
+import Wipro_Logo from "../assets/Wipro_Logo.png"
+import Amazon_logo from "../assets/Amazon_logo.png"
+
 
 const Homepage=()=>{
     return(
@@ -110,14 +133,14 @@ const Homepage=()=>{
           <section id="revenue" className="brand-logos reveal">
             <h1 className="sec-heading">We Drive Growth &amp; Revenue for the Best Companies</h1> 
             <div>
-              <a><img src="https://www.dropbox.com/s/lmvtthec9yn0ti6/Allianz.png?raw=1" alt="Allianz" title="Work with Allianz" /></a>
-              <a><img src="https://www.dropbox.com/s/kotgq2u4qr34i2u/audi.jpg?raw=1" alt="Audi" title="Work with Audi" /></a>
-              <a><img src="https://www.dropbox.com/s/t5dapt3lkz7rdhe/BMW.png?raw=1" alt="BMW" title="Work with BMW" /></a>
-              <a><img src="https://www.dropbox.com/s/ocqbsbgj590ztyy/ESPN.png?raw=1" alt="ESPN" title="Work with ESPN" /></a>
-              <a><img src="https://www.dropbox.com/s/2maaqxijcmbaqxg/LG.png?raw=1" alt="LG" title="Work with LG" /></a>
-              <a><img src="https://www.dropbox.com/s/yn3gj203hrdjfu7/Logo_NIKE.png?raw=1" alt="Nike" title="Work with Nike" /></a>
-              <a><img src="https://www.dropbox.com/s/gfxa6exv7h1ro6q/Suzuki_logo.png?raw=1" alt="Suzuki" title="Work with Suzuki" /></a>
-              <a><img src="https://www.dropbox.com/s/b7vwmjf6e0owybv/Visa.svg?raw=1" alt="Visa" title="Work with Visa" /></a>
+              <a><img src={Allianz} alt="Allianz" title="Work with Allianz" /></a>
+              <a><img src={audi} alt="Audi" title="Work with Audi" /></a>
+              <a><img src={BMW} alt="BMW" title="Work with BMW" /></a>
+              <a><img src={ESPN} alt="ESPN" title="Work with ESPN" /></a>
+              <a><img src={LG} alt="LG" title="Work with LG" /></a>
+              <a><img src={Logo_NIKE} alt="Nike" title="Work with Nike" /></a>
+              <a><img src={Suzuki_logo} alt="Suzuki" title="Work with Suzuki" /></a>
+              <a><img src={Visa} alt="Visa" title="Work with Visa" /></a>
             </div>
           </section>    
           <section id="highlights" className='reveal'>
@@ -133,47 +156,47 @@ const Homepage=()=>{
                 </div>
               </div>
               <div className="col-6 slide-img">
-                <img src="https://www.dropbox.com/s/vnkswx20c0dg5ta/analyzing.jpg?raw=1" alt="Team Work in Los Angeles" title="Company Team Work" />
+                <img src={analyzing} alt="Team Work in Los Angeles" title="Company Team Work" />
               </div> 
             </div>
           </section>
-          {/* <section id="partners" className="brand-logos reveal">
+              <section id="partners" className="brand-logos reveal">
             <h1 className="sec-heading">Our Partners</h1> 
             <div>
-              <a><img src="https://www.dropbox.com/s/mk5ca04seizpf8l/aws.svg?raw=1" alt="Work with AWS" title="Our Work" /></a>
-              <a><img src="https://www.dropbox.com/s/r9utt5nj9k9m1t8/Dell.png?raw=1" alt="Dell" title="Work with Dell" /></a>
-              <a><img src="https://www.dropbox.com/s/umw9g0zgm1ecfvn/Intel.png?raw=1" alt="intel" title="Work with intell" /></a>
-              <a><img src="https://www.dropbox.com/s/x0hrha2dosey99z/ibm.png?raw=1" alt="IBM" title="Work with IBM" /></a>
-              <a><img src="https://www.dropbox.com/s/ekzu1wcki6jziay/Microsoft.svg?raw=1" alt="Microsoft" title="Work with Microsoft" /></a>
-              <a><img src="https://www.dropbox.com/s/lvl5cp14i3v0wgi/Nasscom.png?raw=1" alt="Nasscom" title="Work with Nasscom" /></a>
-              <a><img src="https://www.dropbox.com/s/h66k9jaaknxaum4/Samsung.png?raw=1" alt="Samsung" title="Work with Samsung" /></a>
-              <a><img src="https://www.dropbox.com/s/86cbtf78khj0q9z/Nvidia.png?raw=1" alt="Nvidia" title="Work with Nvidia" /></a>          </div>
+              <a><img src={aws}alt="Work with AWS" title="Our Work" /></a>
+              <a><img src={Dell} alt="Dell" title="Work with Dell" /></a>
+              <a><img src={Intel} alt="intel" title="Work with intell" /></a>
+              <a><img src={ibm} alt="IBM" title="Work with IBM" /></a>
+              <a><img src={Microsoft} alt="Microsoft" title="Work with Microsoft" /></a>
+              <a><img src={Nasscom} alt="Nasscom" title="Work with Nasscom" /></a>
+              <a><img src={Samsung} alt="Samsung" title="Work with Samsung" /></a>
+              <a><img src={Nvidia} alt="Nvidia" title="Work with Nvidia" /></a>          </div>
           </section>
           <section id="topList" className="brand-logos reveal">
             <h1 className="sec-heading">Recognition as Top Mobile Development Company</h1> 
             <div>
               <a>
-                <img src="https://www.dropbox.com/s/19czj59oq0orbfa/tm.png?raw=1" alt="Top 10 MobleApp Development Companies" title="Top 10 MobleApp Development Companies" />
+                <img src={tm} alt="Top 10 MobleApp Development Companies" title="Top 10 MobleApp Development Companies" />
                 <span>Recognised Among Top 10 MobleApp Development Companies</span>
               </a>
               <a>
-                <img src="https://www.dropbox.com/s/130734rofy1f261/tata.png?raw=1" alt="Top 10 MobleApp Development Companies" title="Top 10 MobleApp Development Companies" />
+                <img src={tata} alt="Top 10 MobleApp Development Companies" title="Top 10 MobleApp Development Companies" />
                 <span>Recognised Among Top 10 MobleApp Development Companies</span>
               </a>
               <a>
-                <img src="https://www.dropbox.com/s/k17kwv9hiu9w98d/Infosys_logo.png?raw=1" alt="Top 10 MobleApp Development Companies" title="Top 10 MobleApp Development Companies" />
+                <img src={Infosys_logo} alt="Top 10 MobleApp Development Companies" title="Top 10 MobleApp Development Companies" />
                 <span>Recognised Among Top 10 MobleApp Development Companies</span>
               </a>
               <a>
-                <img src="https://www.dropbox.com/s/mm4cnforc4pvwac/Wipro_Logo.png?raw=1" alt="Top 10 MobleApp Development Companies" title="Top 10 MobleApp Development Companies" />
+                <img src={Wipro_Logo} alt="Top 10 MobleApp Development Companies" title="Top 10 MobleApp Development Companies" />
                 <span>Recognised Among Top 10 MobleApp Development Companies</span>
               </a>            
               <a>
-                <img src="https://www.dropbox.com/s/n4scpig8b3tfqkq/Amazon_logo.svg?raw=1" alt="Top 10 MobleApp Development Companies" title="Top 10 MobleApp Development Companies" />
+                <img src={Amazon_logo} alt="Top 10 MobleApp Development Companies" title="Top 10 MobleApp Development Companies" />
                 <span>Recognised Among Top 10 MobleApp Development Companies</span>
               </a>
             </div>
-          </section> */}
+          </section> 
        
         </div>
         </>

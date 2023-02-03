@@ -1328,3 +1328,14 @@ footer {
       height: 180px;
   }
 }
+
+@media only screen and (max-width:1366px) {
+
+    footer {
+        padding: 2em 0em 0em !important;
+    }
+    
+    section {
+        padding: 0 2em 2em !important;
+    }
+}
