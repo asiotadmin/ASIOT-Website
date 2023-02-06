@@ -12,7 +12,8 @@ jobs:
         with:
           host: ${{ secrets.HOST_DNS }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.USER_PWD }}
+          password: ${{ secrets.USER_PWD }}
+          port: 22
           script: |
             cd /home/frappe/asiot_website
             git pull upstream master
