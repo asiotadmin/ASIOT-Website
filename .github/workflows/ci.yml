@@ -1,0 +1,20 @@
+name: Remote ssh command
+on:
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Executing remote ssh commands using ssh key
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST_DNS }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.USER_PWD }}
+          script: |
+            cd /home/frappe/asiot_website
+            git pull upstream master
+            npm install
+            npm run build
