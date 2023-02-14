@@ -42,7 +42,7 @@ a:hover{
 .sec-heading{text-align:center;font-size:40px;padding:1.5em 0;margin:0}
 .mainMenu a:last-child:hover{color:#fff!important}
 p{font-family:'Roboto',sans-serif;color:#717171;line-height:1.5;text-align:justify}
-#topHeader{padding:1em 4em;font-family:'Roboto',sans-serif;background:#fdedec;position:fixed!important;top:0!important;margin:0;z-index:999999;width:100%}
+#topHeader{padding:1em 4em;font-family:'Roboto',sans-serif;background:#fff;position:fixed!important;top:0!important;margin:0;z-index:999999;width:100%}
 #topInfo{padding:0;margin-top:10px;text-align:right;color:#2E2E2E}
 #topInfo li{list-style-type:none;display:inline}
 #topInfo li:last-child{padding-left:21px}
@@ -54,7 +54,7 @@ p{font-family:'Roboto',sans-serif;color:#717171;line-height:1.5;text-align:justi
 .mainMenu a{padding:15px 0;margin-left:35px;font-size:20px;text-decoration:none;font-weight:500;color:#2E2E2E;position:relative;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
 .mainMenu a:hover,.mainMenu a:focus{color:#24142e}
 .mainMenu a:not(:last-child):hover:after,.mainMenu a:not(:last-child):focus:after{width:100%;left:0}
-.mainMenu a:after{top:40px;content:"";display:block;height:2px;left:50%;position:absolute;width:0;background:#24142e;-webkit-transition:width .3s ease 0s,left .3s ease 0;transition:width .3s ease 0s,left .3s ease 0}
+.mainMenu a:after{background: #24142e;content: "";display: block;height: 2px;left: 50%;position: absolute;top: 40px;transition: width .3s ease 0s,left .3s ease 0s;width: 0;}
 .mainMenu a:first-child{margin:0}
 .mainMenu a:last-child{border:2px solid #24142e;padding:8px 16px!important;font-size:17px;border-radius:20px;text-align:center;color:#24142e}
 .mainMenu a:last-child:hover,.mainMenu a:last-child:focus{background-color:#24142e;color:#fff}
@@ -105,7 +105,7 @@ footer ul{padding:0}
 footer ul li{list-style-type:none;padding:0;line-height:2}
 footer .footer-cat{font-size:20px}
 .footer-cat-links a{color:#fff;text-decoration:none;position:relative}
-.footer-cat-links a:after{top:21px;content:"";display:block;height:2px;left:50%;position:absolute;width:0;background:#fff;-webkit-transition:width .3s ease 0s,left .3s ease 0;transition:width .3s ease 0s,left .3s ease 0}
+.footer-cat-links a:after{background: #fff;content: "";display: block;height: 2px;left: 50%;position: absolute;top: 21px;transition: width .3s ease 0s,left .3s ease 0s;width: 0;}
 .footer-cat-links a:hover:after,.footer-cat-links a:focus:after{width:100%;left:0}
 footer #subscribe{margin:20px 0 30px}
 input#subscriber-email{outline:none;padding:8px;background:#ff6962;border:1px solid #fff;color:#fff;border-radius:4px 0 0 4px}
@@ -151,7 +151,7 @@ nav{padding:0}
 #development-img img{height:290px}
 #topHeader{position:relative;padding-bottom:0}
 #topHeader .logo{position:absolute;color:#fff;z-index:2;top:0;padding-top:.5em;font-size:40px;left:0;padding-left:1em}
-.mainMenu{position:absolute;top:0;right:0;background-color:#fdedec;width:100%;padding:1em 2em 2em;z-index:1;margin:0;-webkit-transition:all 1s ease-in-out;transition:all 1s ease-in-out}
+.mainMenu{position:absolute;top:0;right:0;background-color:#fff;width:100%;padding:1em 2em 2em;z-index:1;margin:0;-webkit-transition:all 1s ease-in-out;transition:all 1s ease-in-out}
 .logo img{height:60px;margin-top: -12px;}
 .mainMenu.active{padding-top:5em}
 .mainMenu a{display:list-item;text-align:right;width:100%;list-style-type:none;margin:0;color:#fff;pointer-events:none;line-height:0;padding:0 2em 0 0;opacity:0;visibility:hidden;-webkit-transition:all .6s ease-in-out;transition:all .6s ease-in-out}
