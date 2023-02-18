@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Javascript.jsx";
-import ASIOT_Logo2 from "../assets/ASIOT_Logo2.png"
+import ASIOT_Logo2 from "../assets/ASIOT_Logo.webp"
 const Footer = () => {
   const handleClick = event => {
     // // 👇️ refers to the div element
@@ -11,51 +11,46 @@ const Footer = () => {
     return (
         <>
               <footer>
-            <div>
-              <span className="logo">ASIOT Technologies</span>
+           
+            <div className="row First_footer_row">
+
+              <div className="col-md-3">
+              <div className='footer-logo-div'>
+              <a href="#" className="logo">
+            <img src={ASIOT_Logo2} alt="Logo" className='asiot-logo'/>
+          </a>
             </div>
-            <div className="row">
-              <div className="col-3">
-                <span className="footer-cat">Solution</span>
+            <div className="social-links social-1">
+                <a href="#"><i className="fab fa-facebook-f" /></a>
+                <a href="#"><i className="fab fa-twitter" /></a>
+                <a href="#"><i className="fab fa-linkedin-in" /></a>
+                <a href="#"><i className="fab fa-instagram" /></a>
+              </div>
+
+              </div>
+            <div className="col-md-3">
+                <span className="footer-cat">Services</span>
                 <ul className="footer-cat-links">
-                  <li><a href><span>Interprise App Development</span></a></li>
-                  <li><a href><span>Android App Development</span></a></li>
-                  <li><a href><span>ios App Development</span></a></li>
+                  <li><a href="#"><span>Frappe</span></a></li>
+                  <li><a href="#"><span>DevOps</span></a></li>
+                  <li><a href="#"><span>MobileApp</span></a></li>
                 </ul>
               </div>
-              <div className="col-3">
-                <span className="footer-cat">Industries</span>
+              <div className="col-md-3">
+                <span className="footer-cat">Solutions</span>
                 <ul className="footer-cat-links">
-                  <li><a href><span>Healthcare</span></a></li>
-                  <li><a href><span>Sports</span></a></li>
-                  <li><a href><span>ECommerce</span></a></li>
-                  <li><a href><span>Construction</span></a></li>
-                  <li><a href><span>Club</span></a></li>
+                  <li><a href="#"><span>ERPNext</span></a></li>
+                  <li><a href="#"><span>ERPNext Healthcare</span></a></li>
+                  <li><a href="#"><span>ERPNext LMS</span></a></li>
+                  <li><a href="#"><span>ERPNext Manufacturing</span></a></li>
+                  <li><a href="#"><span>ERPNext Retail</span></a></li>
+
                 </ul>
               </div>
-              <div className="col-3">
-                <span className="footer-cat">Quick Links</span>
-                <ul className="footer-cat-links">
-                  <li><a href><span>Reviews</span></a></li>
-                  <li><a href><span>Terms &amp; Condition</span></a></li>
-                  <li><a href><span>Disclaimer</span></a></li>
-                  <li><a href><span>Site Map</span></a></li>
-                </ul>
-              </div>
-              <div className="col-3" id="newsletter">
-                <span className="footer-cat">Stay Connected</span>
-                <form id="subscribe">
-                  <input type="email" id="subscriber-email" placeholder="Enter Email Address" />
-                  <input type="submit" defaultValue="Subscribe" id="btn-scribe" />
-                </form>
-                <div className="social-links social-2">
-                  <a href><i className="fab fa-facebook-f" /></a>
-                  <a href><i className="fab fa-twitter" /></a>
-                  <a href><i className="fab fa-linkedin-in" /></a>
-                  <a href><i className="fab fa-instagram" /></a>
-                  <a href><i className="fab fa-tumblr" /></a>
-                  <a href><i className="fab fa-reddit-alien" /></a>
-                </div>
+            
+             
+              <div className="col-md-3" id="newsletter">
+               
                 <div id="address">
                   <span className="footer-cat">Office Location</span>
                   <ul>
@@ -72,15 +67,9 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="social-links social-1 col-6">
-                <a href><i className="fab fa-facebook-f" /></a>
-                <a href><i className="fab fa-twitter" /></a>
-                <a href><i className="fab fa-linkedin-in" /></a>
-                <a href><i className="fab fa-instagram" /></a>
-                {/* <a href><i className="fab fa-tumblr" /></a> */}
-                {/* <a href><i className="fab fa-reddit-alien" /></a> */}
-              </div>
             </div>
+
+
             <div id="copyright">
               © All Rights Reserved 2019-2020
             </div>
