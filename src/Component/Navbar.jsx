@@ -2,13 +2,6 @@ import React from 'react'
 import "../Javascript.jsx";
 import ASIOT_Logo2 from "../assets/ASIOT_Logo.webp"
 const Navbar = () => {
-  const handleClick = event => {
-    // 👇️ refers to the div element
-    // console.log(event.currentTarget);
-
-    // console.log('div clicked');
-    
-  };
     return (
         <>
              <div id="header">
@@ -24,31 +17,45 @@ const Navbar = () => {
     </form> */}
     <ul>
       <li>
-        <a className="first_home" href="#">Home</a>
+        <a className="first_home" href="/">Home</a>
       </li>
-      <li  className="dropdown">
-        <a href="#">Solutions</a>
+               
+                    <li className="dropdown dropdown-toggle-btn">
+                        <a href="/" data-toggle="dropdown">Solutions<b className="caret"></b></a>
+                        <ul className="dropdown-menu multi-level dropdown-right-btn">
+                            <li><a href="/">Frappe</a></li>  
+                            <li><a href="/">DevOps</a></li>                                                       
+                            <li className="dropdown-submenu">
+                                <a href="/" data-toggle="dropdown">Mobile App</a>
+                                <ul className="dropdown-menu">
+                                <li><a href="/">ERPNext</a></li>
+            <li><a href="/">ERPNext Healthcare</a></li>
+            <li><a href="/">ERPNext LMS</a></li>
+            <li><a href="/">ERPNext Manufacturing</a></li>
+            <li><a href="/">ERPNext Retail</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>                    
+           
+           
+
+
+      <li  className="dropdown dropdown-toggle-btn">
+        <a href="/">Services</a>
           <ul>
-            <li><a href="#">Frappe</a></li>
-            <li><a href="#">DevOps</a></li>
-            <li><a href="#">MobileApp</a></li>
-          </ul>        
-      </li>
-      <li  className="dropdown">
-        <a href="#">Services</a>
-          <ul>
-            <li><a href="#">ERPNext</a></li>
-            <li><a href="#">ERPNext Healthcare</a></li>
-            <li><a href="#">ERPNext LMS</a></li>
-            <li><a href="#">ERPNext Manufacturing</a></li>
-            <li><a href="#">ERPNext Retail</a></li>
+            <li><a href="/">ASIOT Service1</a></li>
+            <li><a href="/">ASIOT Service2</a></li>
+            <li><a href="/">ASIOT Service3</a></li>
+            <li><a href="/">ASIOT Service4</a></li>
+            <li><a href="/">ASIOT Service5</a></li>
           </ul>        
       </li>
       <li>
-        <a href="#">About Us</a>
+        <a href="/">About Us</a>
       </li>
       <li>
-        <a href="#">Career </a>
+        <a href="/">Career </a>
       </li>
 
       
