@@ -1,8 +1,6 @@
 import React from "react";
-import delivery_experience from "../assets/delivery_experience.png"
 import ERPNext from "../assets/Erp-Banner.webp";
 import MobileApp from "../assets/MobileApp.webp";
-import Devops from "../assets/devops.webp";
 import Upper_arrow from "../assets/Upper_arrow.webp";
 import Client1 from "../assets/Client1.webp";
 import blog1 from "../assets/blog1.webp";
@@ -47,7 +45,7 @@ const Homepage = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="main_div">
-              <a href="#" target="_blank">
+              <a href="/" target="_blank">
                 <span>ASIOT</span>
               </a>
             </div>
@@ -109,66 +107,6 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-      <section id="delivery" className="reveal">
-        <h1 className="sec-heading">Delivering Experience Since 2018</h1>
-        <div className="col-5 delivery-img">
-          <img
-            src={delivery_experience}
-            alt="Productivity Delivering Experience"
-            title="Delivering Experience Since 2009"
-          />
-        </div>
-        <div className="col-7">
-          <h2>Accelerating your business growth with Digital Experiences</h2>
-          <p>
-            Organizations Accelerating Their Digital Workplace Achieve
-            Improvements4© 2021 TechTarget, Inc. All Rights Reserved.Respondents
-            report that the number of remote users in their environments has
-            nearly tripled over the last 12 months (an increase of 2.8x, from
-            20% of users on average to 56%) and for many this shift may
-            represent a new normal unlikely to change in the near term. For
-            organizations with sub-par device technology and without the right
-            tools to support, secure, and manage remote users, this shift could
-            be disastrous.
-            <br />
-            <br />
-            Organizations, from commercial businesses to educational
-            institutions, need to keep users online and productive and need to
-            meet their expectations for what a modern digital experience should
-            be.
-          </p>
-          <div className="btn-footer">
-            <a href className="brand-btn">
-              Contact Us
-            </a>
-          </div>
-          <div className="row content flex-direction-reverse">
-            <div className="circle2_2"></div>
-            <div className="col-md-6 features-img reveal">
-              <img src={Devops} className="Erp_img" alt="ASIOT_Devops" />
-            </div>
-            <div className="col-md-6 features-right">
-              <div className="features-info ">
-                <h2>DevOps</h2>
-                <p>
-                  We cover all aspects of the Software Development Life Cycle
-                  and Custom Software Application Development right from
-                  Building, Deploying, and Testing, to Configuration Management
-                  with the latest Software Technologies.
-                </p>
-                <a
-                  href="/nestorops"
-                  className="Animation-btn "
-                  title="Learn More"
-                >
-                  Know More<span className="button">&nbsp; </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="Our_reach">
         <div className="container">
           <div className="row">
