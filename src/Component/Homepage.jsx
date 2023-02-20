@@ -1,4 +1,5 @@
 import React from "react";
+import delivery_experience from "../assets/delivery_experience.png"
 import ERPNext from "../assets/Erp-Banner.webp";
 import MobileApp from "../assets/MobileApp.webp";
 import Devops from "../assets/devops.webp";
