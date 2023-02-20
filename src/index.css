@@ -368,6 +368,10 @@ nav .dropdown ul {
 }
 }
 @media (max-width: 767px){
+  .Text_para h3 {
+    padding: 0 65px 0 65px;
+    text-align: center;
+}
   .flex-direction-reverse {
     flex-direction: column-reverse;
 }

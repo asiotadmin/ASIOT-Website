@@ -1,6 +1,8 @@
 import React from "react";
+import delivery_experience from "../assets/delivery_experience.png"
 import ERPNext from "../assets/Erp-Banner.webp";
 import MobileApp from "../assets/MobileApp.webp";
+import Devops from "../assets/devops.webp";
 import Upper_arrow from "../assets/Upper_arrow.webp";
 import Client1 from "../assets/Client1.webp";
 import blog1 from "../assets/blog1.webp";
@@ -45,7 +47,7 @@ const Homepage = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="main_div">
-              <a href="/" target="_blank">
+              <a href="#" target="_blank">
                 <span>ASIOT</span>
               </a>
             </div>
@@ -103,6 +105,30 @@ const Homepage = () => {
                 className="Erp_img Devops_img"
                 alt="ASIOT_mobileApp"
               />
+            </div>
+          </div>
+          <div className="row content flex-direction-reverse">
+            <div className="circle2_2"></div>
+            <div className="col-md-6 features-img reveal">
+              <img src={Devops} className="Erp_img" alt="ASIOT_Devops" />
+            </div>
+            <div className="col-md-6 features-right">
+              <div className="features-info ">
+                <h2>DevOps</h2>
+                <p>
+                  We cover all aspects of the Software Development Life Cycle
+                  and Custom Software Application Development right from
+                  Building, Deploying, and Testing, to Configuration Management
+                  with the latest Software Technologies.
+                </p>
+                <a
+                  href="/nestorops"
+                  className="Animation-btn "
+                  title="Learn More"
+                >
+                  Know More<span className="button">&nbsp; </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
