@@ -68,6 +68,9 @@ nav li li a:hover{background:#bdc3c7;background:#FAFBFB}
 .navbar-nav2{position:absolute;right:100px;top:19px}
 .btn-gradient{color:#fff;-webkit-text-fill-color:#fff;background:linear-gradient(to right,#8C4091 0%,42.77108311653137%,#AC3164 85.54216623306274%,92.77108311653137%,#D52236 100%);border-radius:48px;padding:10px 14px 10px 30px !important;width:184px;font-size:16px!important;line-height:32px;letter-spacing:-.0032em;color:#FFF;height:52px}
 .btn-gradient::after{content:"";text-align:center;font-size:22px;display:inline-block;border-radius:50px}
+.dropdown-submenu>.dropdown-menu {top: 5px;left: 101%;margin-top: -6px;margin-left: -1px;-webkit-border-radius: 0 6px 6px 6px;-moz-border-radius: 0 6px 6px;border-radius: 0 6px 6px 6px;}
+.dropdown-toggle-btn::after {content: '';height: 25px;width: 17px;background: url(../src/assets/down.webp) no-repeat 0 0 !important;border: none;bottom: 0;position: absolute;right: 0;}
+.dropdown-right-btn::after {content: '';height: 23px;width: 17px;background: url(../src/assets/down.webp) no-repeat 0 0 !important;border: none;top: 30px;position: absolute;right: 20px;transform: rotate(-0.25turn)}
 
 /* Hero Section css */
 .hero{background-color:#000;background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../src/assets/Main_banner.webp);background-position:center;background-size:cover;color:#fff;padding:1em;text-align:center;height:850px}
@@ -179,11 +182,18 @@ text-transform: uppercase;
 color: #697A94;
 margin-bottom: 20px;
 }
+.social-links a:hover{background: linear-gradient(to right,#8C4091 0%,42.77108311653137%,#AC3164 85.54216623306274%);}
 
-.social-links a:hover{
-  background: linear-gradient(to right,#8C4091 0%,42.77108311653137%,#AC3164 85.54216623306274%);
+
+
+/* ERPNext page css */
+
+.ERP_section1 {
+  background: linear-gradient(109.2deg, #A522D3 -1.24%, #0A3A87 104.65%);
+  background-size: auto;
+  height: 880px;
+  background-size: 100%;
 }
-
 
 /* ALL RESPONSIVE CSS STARTS */
 
@@ -191,6 +201,7 @@ margin-bottom: 20px;
   nav li a {
     margin: 0 26px;
 }
+
 #intro .animated_div {
   width: 45%;
 }
@@ -465,30 +476,4 @@ nav .dropdown ul {
   #header nav ul li li a:before{content:"- "}
   .mega-col{width:100%}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
