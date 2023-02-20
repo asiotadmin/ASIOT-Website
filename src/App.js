@@ -8,10 +8,17 @@ import { BrowserRouter,  Routes, Route } from "react-router-dom";
 import Navbar from './Component/Navbar';
 import Footer from './Component/footer';
 import "./Javascript.jsx";
+import Helmet from 'react-helmet';
 
 const App=()=>{
     return(
+        
         <BrowserRouter>
+         <Helmet>
+          <title>App Title</title>
+          <meta name="description" content="App Description" />
+          <meta name="title" content="ASIOT Solutions" />
+        </Helmet>
         <Navbar/>
         <Routes>
             <Route path="/" element={<Homepage/>} />
@@ -20,6 +27,7 @@ const App=()=>{
         </Routes>
         <Footer/>
         </BrowserRouter>
+        
     );
 };
 export default App;
