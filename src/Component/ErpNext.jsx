@@ -13,6 +13,7 @@ const ErpNext=()=>{
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
+                        <h1>ERPNext </h1>
                     </div>
                 </div>
             </div>
