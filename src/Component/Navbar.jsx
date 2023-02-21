@@ -23,12 +23,12 @@ const Navbar = () => {
                     <li className="dropdown dropdown-toggle-btn">
                         <a href="/" data-toggle="dropdown">Solutions<b className="caret"></b></a>
                         <ul className="dropdown-menu multi-level dropdown-right-btn">
-                            <li><a href="/">Frappe</a></li>  
+                            <li><a href="/ErpNext">Frappe</a></li>  
                             <li><a href="/">DevOps</a></li>                                                       
                             <li className="dropdown-submenu">
                                 <a href="/" data-toggle="dropdown">Mobile App</a>
                                 <ul className="dropdown-menu">
-                                <li><a href="/">ERPNext</a></li>
+                                <li><a href="/ErpNext">ERPNext</a></li>
             <li><a href="/">ERPNext Healthcare</a></li>
             <li><a href="/">ERPNext LMS</a></li>
             <li><a href="/">ERPNext Manufacturing</a></li>
