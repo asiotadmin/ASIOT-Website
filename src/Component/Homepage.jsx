@@ -1,5 +1,4 @@
 import React from "react";
-import delivery_experience from "../assets/delivery_experience.png"
 import ERPNext from "../assets/Erp-Banner.webp";
 import MobileApp from "../assets/MobileApp.webp";
 import Devops from "../assets/devops.webp";
@@ -19,6 +18,49 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Navigation } from "swiper";
 import Helmet from "react-helmet";
+import $ from 'jquery';
+$(document).ready(function(){
+
+const typedText = document.querySelector(".typed-text");
+const cursor = document.querySelector(".cursor");
+
+const textArray = ["Streamline Marketing and Sales Automation Through ERPNext", "Streamline Marketing and Sales Automation Through DevOps", "Streamline Marketing and Sales Automation Through Frappe"];
+
+let textArrayIndex = 0;
+let charIndex = 0;
+
+const erase = () => {
+  if (charIndex > 0) {
+    cursor.classList.remove('blink');
+    typedText.textContent = textArray[textArrayIndex].slice(0, charIndex - 1);
+    charIndex--;
+    setTimeout(erase, 80);
+  } else {
+    cursor.classList.add('blink');
+    textArrayIndex++;
+    if (textArrayIndex > textArray.length - 1) {
+      textArrayIndex = 0;
+    }
+    setTimeout(type, 1000);
+  }
+}
+
+const type = () => {
+  if (charIndex <= textArray[textArrayIndex].length - 1) {
+    cursor.classList.remove('blink');
+    typedText.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, 120);
+  } else {
+    cursor.classList.add('blink');
+    setTimeout(erase, 1000);
+  }
+}
+
+  type();
+
+});
+
 
 const Homepage = () => {
   return (
@@ -47,7 +89,7 @@ const Homepage = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="main_div">
-              <a href="#" target="_blank">
+              <a href="/" target="_blank">
                 <span>ASIOT</span>
               </a>
             </div>
@@ -257,7 +299,7 @@ const Homepage = () => {
             <div className="col-md-4 text-dark">
               <img src={blog1} alt="blog1" />
               <div className="Blog_text">
-                <a href="#">
+                <a href="/">
                   Building a LMS App for Educational Sectors Has Become So Much
                   Easier than Before!
                 </a>
@@ -266,7 +308,7 @@ const Homepage = () => {
             <div className="col-md-4 text-dark">
               <img src={blog2} alt="blog1" />
               <div className="Blog_text">
-                <a href="#">
+                <a href="/">
                   Building a LMS App for Educational Sectors Has Become So Much
                   Easier than Before!
                 </a>
@@ -275,7 +317,7 @@ const Homepage = () => {
             <div className="col-md-4 text-dark">
               <img src={blog3} alt="blog1" />
               <div className="Blog_text">
-                <a href="#">
+                <a href="/">
                   Building a LMS App for Educational Sectors Has Become So Much
                   Easier than Before!
                 </a>
@@ -286,7 +328,7 @@ const Homepage = () => {
             <div className="col-md-4 text-dark">
               <img src={blog4} alt="blog1" />
               <div className="Blog_text">
-                <a href="#">
+                <a href="/">
                   Building a LMS App for Educational Sectors Has Become So Much
                   Easier than Before!
                 </a>
@@ -295,7 +337,7 @@ const Homepage = () => {
             <div className="col-md-4 text-dark">
               <img src={blog5} alt="blog1" />
               <div className="Blog_text">
-                <a href="#">
+                <a href="/">
                   Building a LMS App for Educational Sectors Has Become So Much
                   Easier than Before!
                 </a>
@@ -304,7 +346,7 @@ const Homepage = () => {
             <div className="col-md-4 text-dark">
               <img src={blog6} alt="blog1" />
               <div className="Blog_text">
-                <a href="#">
+                <a href="/">
                   Building a LMS App for Educational Sectors Has Become So Much
                   Easier than Before!
                 </a>

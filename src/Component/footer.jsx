@@ -2,12 +2,6 @@ import React from 'react'
 import "../Javascript.jsx";
 import ASIOT_Logo2 from "../assets/ASIOT_Logo.webp"
 const Footer = () => {
-  const handleClick = event => {
-    // // 👇️ refers to the div element
-    // console.log(event.currentTarget);
-
-    // console.log('div clicked');
-  };
     return (
         <>
               <footer>
@@ -16,34 +10,34 @@ const Footer = () => {
 
               <div className="col-md-3">
               <div className='footer-logo-div'>
-              <a href="#" className="logo">
+              <a href="/" className="logo">
             <img src={ASIOT_Logo2} alt="Logo" className='asiot-logo'/>
           </a>
             </div>
             <div className="social-links social-1">
-                <a href="#"><i className="fab fa-facebook-f" /></a>
-                <a href="#"><i className="fab fa-twitter" /></a>
-                <a href="#"><i className="fab fa-linkedin-in" /></a>
-                <a href="#"><i className="fab fa-instagram" /></a>
+                <a href="/"><i className="fab fa-facebook-f" /></a>
+                <a href="/"><i className="fab fa-twitter" /></a>
+                <a href="/"><i className="fab fa-linkedin-in" /></a>
+                <a href="/"><i className="fab fa-instagram" /></a>
               </div>
 
               </div>
             <div className="col-md-3">
                 <span className="footer-cat">Services</span>
                 <ul className="footer-cat-links">
-                  <li><a href="#"><span>Frappe</span></a></li>
-                  <li><a href="#"><span>DevOps</span></a></li>
-                  <li><a href="#"><span>MobileApp</span></a></li>
+                  <li><a href="/"><span>Frappe</span></a></li>
+                  <li><a href="/"><span>DevOps</span></a></li>
+                  <li><a href="/"><span>MobileApp</span></a></li>
                 </ul>
               </div>
               <div className="col-md-3">
                 <span className="footer-cat">Solutions</span>
                 <ul className="footer-cat-links">
-                  <li><a href="#"><span>ERPNext</span></a></li>
-                  <li><a href="#"><span>ERPNext Healthcare</span></a></li>
-                  <li><a href="#"><span>ERPNext LMS</span></a></li>
-                  <li><a href="#"><span>ERPNext Manufacturing</span></a></li>
-                  <li><a href="#"><span>ERPNext Retail</span></a></li>
+                  <li><a href="/"><span>ERPNext</span></a></li>
+                  <li><a href="/"><span>ERPNext Healthcare</span></a></li>
+                  <li><a href="/"><span>ERPNext LMS</span></a></li>
+                  <li><a href="/"><span>ERPNext Manufacturing</span></a></li>
+                  <li><a href="/"><span>ERPNext Retail</span></a></li>
 
                 </ul>
               </div>
@@ -73,7 +67,7 @@ const Footer = () => {
             <div id="copyright">
               © All Rights Reserved 2019-2020
             </div>
-            <a href="#intro" id="gotop">Top</a>
+            <a href="/intro" id="gotop">Top</a>
           </footer>
         </>
     );
