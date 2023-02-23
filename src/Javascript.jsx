@@ -11,13 +11,38 @@ $(document).ready(function () {
       $("#gotop").fadeOut();
     }
   });
+
   $('#header').prepend('<div id="menu-icon"><span class="first"></span><span class="second"></span><span class="third"></span></div>');
+
   $("#menu-icon").on("click", function () {
     $("nav").slideToggle();
     $(this).toggleClass("active");
   });
 
+  // accordian
+
+const accordionBtns = document.querySelectorAll(".accordion");
+accordionBtns.forEach((accordion) => {
+  accordion.onclick = function () {
+    this.classList.toggle("is-open");
+
+    let content = this.nextElementSibling;
+    console.log(content);
+
+    if (content.style.maxHeight) {
+      //this is if the accordion is open
+      content.style.maxHeight = null;
+    } else {
+      //if the accordion is currently closed
+      content.style.maxHeight = content.scrollHeight + "px";
+      console.log(content.style.maxHeight);
+    }
+  };
 });
+});
+
+
+//scroll effect
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
@@ -47,7 +72,5 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
-
-
 
 
