@@ -28,7 +28,7 @@ const ErpNext = () => {
                 <meta name="description" content="ErpNext page" />
                 <meta name="title" content="ErpNext page" />
             </Helmet>
-            <section className='ERP_section1'>
+            <section className='ERP_section1' id='intro'>
                 <div className="row">
                     <div className="col-md-6">
                         <div className="left-erp">

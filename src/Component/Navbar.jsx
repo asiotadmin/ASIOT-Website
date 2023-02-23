@@ -29,7 +29,7 @@ const Navbar = () => {
                                 <a href="/" data-toggle="dropdown">Mobile App</a>
                                 <ul className="dropdown-menu">
                                 <li><a href="/ErpNext">ERPNext</a></li>
-            <li><a href="/">ERPNext Healthcare</a></li>
+            <li><a href="/ErpNextHealthcare">ERPNext Healthcare</a></li>
             <li><a href="/">ERPNext LMS</a></li>
             <li><a href="/">ERPNext Manufacturing</a></li>
             <li><a href="/">ERPNext Retail</a></li>
