@@ -262,7 +262,7 @@ section.Healthcare-section5 h2{padding-bottom:50px}
 .leader-box-main-img2{width:38px!important}
 .Healthcare-section2 p{font-weight:400;font-size:16px;line-height:28px;letter-spacing:-.0604403px;color:#636981;padding:0 30px}
 .Healthcare-section3{background:linear-gradient(125.36deg,#F1FFFD 16.24%,#E9F3FF 75.51%);padding:35px}
-.Healthcare-section3 p{font-weight:400;font-size:20px;line-height:36px;color:#636981;padding:30px 0 0}
+.Healthcare-section3 p,.Lms-section2 p{font-weight:400;font-size:20px;line-height:36px;color:#636981;padding:30px 0 0}
 .ERPNext_row{margin-top:50px!important}
 .leader-box-main-img{width:50px;height:50px;margin-bottom:20px}
 .Healthcare-section4 h2{font-weight:700;font-size:42px;line-height:58px;letter-spacing:-1px;color:#000}
@@ -281,6 +281,26 @@ button.accordion.is-open:after{background:url(../src/assets/minus.webp) no-repea
 .Faq-accordion{padding-right:100px}
 button.accordion.is-open{border-radius: 4px 4px 0 0;}
 
+
+/* LMS Page  */
+.Blue_span{color: #e0737f;}
+.btn-gradient2{color: #000;background:#fff;margin: 0;}
+.LMS_people{width: 671px;height:578px;position: absolute;right: 0;margin-top:250px;top: 0;}
+.Join-us{color: #fff;background: #000;}
+.LMS-para {margin: 150px 0 0 110px;}
+.Lms-section2{background:#FEF9E8 url(../src/assets/Lms-section2.webp) no-repeat;background-size: 100%;padding-bottom: 35px;}
+.Lms-section2 h2{font-weight: 700;font-size: 42px;line-height: 52px;letter-spacing: -0.03em;font-feature-settings: 'ss01' on;color: #000000;text-align: center;margin: 170px 0 50px 0;}
+.Lms-section3 h2,.Lms-section4 h2{font-weight: 700;font-size: 42px;line-height: 52px;letter-spacing: -0.03em;font-feature-settings: 'ss01' on;color: #000000;text-align: center;margin: 50px 0 50px 0;}
+.module-box img{width: 70px;height: 70px;}
+.module-box{text-align: center;}
+.Lms-section3 {padding-bottom:0;background: #F3F4FB;}
+.module-box h5,.feature-box h5{font-weight: 600;font-size: 24px;line-height: 32px;letter-spacing: -1px;font-feature-settings: 'ss01' on;color: #121E1C;padding: 15px 0 30px 0;}
+.feature-box {height: auto;padding:46px 20px 20px 20px;background: #FFF;box-shadow: -0.226px 4px 10px #1a0000;margin: 0 0 50px;border-radius: 10px;text-align: center;}
+.feature-box h5{padding: 15px 0 15px 0;}
+.feature-box p{font-weight: 400;font-size: 20px;line-height: 30px;letter-spacing: -0.24px;color: #4F5E77;}
+.Lms-section4{background: #FEF9E8; padding-bottom: 35px;}
+.feature-box img{width: 86px;height: 86px;}
+
 /* ALL RESPONSIVE CSS STARTS */
 @media screen and (max-width: 1536px){
   .hero {height: 700px;}
@@ -297,9 +317,18 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
   .overlay p {font-size: 20px;line-height: 30px;}
   .overlay h1 {font-size: 52px;line-height: 58px;}
   .Healthcare_line {width: 275px;}
+  .LMS_people {width: 620px;height: 488px;margin-top: 150px;}
+  .LMS-para{margin: 100px 0 0 110px;}
 }
 
 @media only screen and (max-width: 1366px){
+  .Lms-section2 h2 {font-size: 36px;line-height: 34px;margin: 140px 0 40px 0;}
+  .Lms-section3 h2, .Lms-section4 h2{font-size: 36px;line-height: 34px;}
+  .module-box h5, .feature-box h5 {font-weight: 600;font-size: 20px;line-height: 28px;}
+  .feature-box p {font-size: 18px;line-height: 28px;}
+  .Lms-section2 p {font-weight: 400;font-size: 18px;line-height: 28px;color: #636981;padding:0;}
+  .LMS-para{margin: 100px 0 0 110px !important;}
+  .LMS_people {width: 500px;height: 380px;}
   .Healthcare_line2{margin-left:5px}
   .stream-line{margin:160px 0 0 128px;width:330px;height:auto}
   .stream-line input{width:auto}
@@ -375,6 +404,7 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
   .stream-line{margin:auto;display:none}
   .overlay{margin-top:-56px}
   .healthcare-para{margin:90px 0 0 264px;width:auto}
+  .Lms-section1{background:url(../src/assets/Lms-mobile-bg.webp) no-repeat !important;background-size:100% 100% !important;height:510px !important}
   .Healthcare-section1{background:url(../src/assets/Hospiatl_bg.webp) no-repeat;background-size:100% 100%;height:510px}
   .Healthcare-section1 .col-md-6{width:100%}
   .overlay__inner{justify-content:center}
@@ -414,6 +444,8 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
   .features{padding:0}
 }
 @media (max-width: 767px){
+.Lms-section2 h2 {font-size: 35px;line-height: 34px;margin: 80px 0 40px 0;}
+.healthcare-para.LMS-para {margin: 0 !important;}
 .Healthcare-section3 {background: linear-gradient(125.36deg, #F1FFFD 16.24%, #E9F3FF 75.51%);padding: 20px;}
  button.accordion,.accordion-content{width:100%;line-height: 20px;padding: 0 0 0 10px;}
 .Healthcare-section1{height: 380px;}

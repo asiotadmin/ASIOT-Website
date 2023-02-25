@@ -23,16 +23,16 @@ import $ from 'jquery';
 
 
 const Homepage = () => {
-  $(document).ready(function(){
+  $(document).ready(function () {
 
     const typedText = document.querySelector(".typed-text");
     const cursor = document.querySelector(".cursor");
-    
+
     const textArray = ["Streamline Marketing and Sales Automation Through ERPNext", "Streamline Marketing and Sales Automation Through DevOps", "Streamline Marketing and Sales Automation Through Frappe"];
-    
+
     let textArrayIndex = 0;
     let charIndex = 0;
-    
+
     const erase = () => {
       if (charIndex > 0) {
         cursor.classList.remove('blink');
@@ -48,7 +48,7 @@ const Homepage = () => {
         setTimeout(type, 1000);
       }
     }
-    
+
     const type = () => {
       if (charIndex <= textArray[textArrayIndex].length - 1) {
         cursor.classList.remove('blink');
@@ -60,19 +60,16 @@ const Homepage = () => {
         setTimeout(erase, 1000);
       }
     }
-    
-      type();
-    
-    });
+
+    type();
+
+  });
   return (
     <>
       <Helmet>
         <title>ASIOT - Home</title>
-        <meta
-          name="description"
-          content="ASIOT Technologies is the best it solutions company in the world"
-        />
-        <meta name="title" content="ASIOT Solutions" />
+        <meta name="description" content="We are a boutique digital solutions and transformation company. Our experts in custom software application development help your business build custom mobile apps to amplify your business. Visit our website to know more about our services."/>
+        <meta name="title" content="Custom Software Application Development | Digital Solutions for Business | ASIOT" />
       </Helmet>
 
       <section id="intro" className="hero">
@@ -207,8 +204,8 @@ const Homepage = () => {
                 slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
-                // onSwiper={(swiper) => console.log(swiper)}
-                // onSlideChange={() => console.log('slide change')}
+              // onSwiper={(swiper) => console.log(swiper)}
+              // onSlideChange={() => console.log('slide change')}
               >
                 <SwiperSlide>
                   <div className="row slider_row">
