@@ -41,8 +41,6 @@ const Footer = () => {
 
             </ul>
           </div>
-
-
           <div className="col-md-3" id="newsletter">
 
             <div id="address">
