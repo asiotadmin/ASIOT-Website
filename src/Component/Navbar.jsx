@@ -19,7 +19,6 @@ const Navbar = () => {
             <li>
               <a className="first_home" href="/">Home</a>
             </li>
-
             <li className="dropdown dropdown-toggle-btn">
               <a href="/" data-toggle="dropdown">Solutions<b className="caret"></b></a>
               <ul className="dropdown-menu multi-level dropdown-right-btn">
