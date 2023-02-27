@@ -41,8 +41,6 @@ const Footer = () => {
 
             </ul>
           </div>
-
-
           <div className="col-md-3" id="newsletter">
 
             <div id="address">
@@ -65,7 +63,7 @@ const Footer = () => {
         <div id="copyright">
           © All Rights Reserved 2019-2020
         </div>
-        <a href="#intro" id="gotop">Top</a>
+        {/* <a href="#intro" id="gotop">Top</a> */}
       </footer>
     </>
   );

@@ -448,7 +448,7 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
 .healthcare-para.LMS-para {margin: 0 !important;}
 .Healthcare-section3 {background: linear-gradient(125.36deg, #F1FFFD 16.24%, #E9F3FF 75.51%);padding: 20px;}
  button.accordion,.accordion-content{width:100%;line-height: 20px;padding: 0 0 0 10px;}
-.Healthcare-section1{height: 380px;}
+.Healthcare-section1{height: 380px !important;}
 .Healthcare_line2{margin: 0;}
 .overlay p,.overlay h1{padding: 0;}
 .overlay {height: auto;}

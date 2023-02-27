@@ -210,7 +210,7 @@ const ErpNext_healthcare = () => {
                     </div>
                     <div className="row ERPNext_row">
                         <div className="col-md-12">
-                            <a href="/Contact" className="btn-gradient2 btn-gradient-dark Sign-up-free-btn"><span><b>Get Started</b></span></a>
+                            <a href="/Contact" className="btn-gradient-dark Sign-up-free-btn"><span><b>Get Started</b></span></a>
                         </div>
                     </div>
                 </div>
