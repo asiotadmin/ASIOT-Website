@@ -224,7 +224,7 @@ const ErpNext_LMS = () => {
                     </div>
                 </div>
             </section>
-            <section className='Healthcare-section5'>
+            <section className='Lms-section5 Healthcare-section5'>
                 <div className="container">
                     <div className="row justify-content-center">
                         <h2>Frequently Asked<span className="Purple_span"> Questions</span></h2>
