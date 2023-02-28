@@ -21,7 +21,9 @@ import Hospital5 from "../assets/Hospital5.webp"
 import Hospital6 from "../assets/Hospital6.webp"
 
 const ErpNext_healthcare = () => {
-
+//     window.onload = function () {
+//         document.getElementById("campaign-alert").style.display = "none";
+//    };
     return (
         <>
             <Helmet>
@@ -29,6 +31,7 @@ const ErpNext_healthcare = () => {
                 <meta name="description" content="The ERPNext healthcare software enables hospitals and clinics to manage patient appointments, billing, and patient records with high accuracy. Get your own ERPNext software for your healthcare business today!" />
                 <meta name="title" content="ERPNext for Healthcare Industry - ASIOT" />
             </Helmet>
+            {/* <div className="preloader preloader-light preloader-dalas no-split" id='campaign-alert'><div className="spinner-grow" role="status"><span className="sr-only">Loading...</span></div></div> */}
             <section className='Healthcare-section1' id='intro'>
                 <div id="video-container">
                     <video preload="auto" autoPlay={true} loop={true} muted={true} width="1440" height="810">

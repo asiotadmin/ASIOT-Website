@@ -9,6 +9,7 @@ import Navbar from './Component/Navbar';
 import ErpNext from './Component/ErpNext';
 import ErpNextHealthcare from './Component/ErpNext-Healthcare';
 import ErpNextLMS from './Component/ErpNext-LMS';
+import ErpNextManufacturing from './Component/ErpNext-Manufacturing';
 import Footer from './Component/footer';
 import "./Javascript.jsx";
 import Helmet from 'react-helmet';
@@ -29,6 +30,8 @@ const App = () => {
                 <Route exact path="/ErpNext" element={<ErpNext />} />
                 <Route exact path="/ErpNextHealthcare" element={<ErpNextHealthcare />} />
                 <Route exact path="/ErpNextLMS" element={<ErpNextLMS />} />
+                <Route exact path="/ErpNextManufacturing" element={<ErpNextManufacturing />} />
+
             </Routes>
             <Footer />
         </BrowserRouter>

@@ -30,7 +30,7 @@ const Navbar = () => {
                     {/* <li><a href="/ErpNext">ERPNext</a></li> */}
                     <li><a href="/ErpNextHealthcare">ERPNext Healthcare</a></li>
                     <li><a href="/ErpNextLMS">ERPNext LMS</a></li>
-                    <li><a href="/">ERPNext Manufacturing</a></li>
+                    <li><a href="/ErpNextManufacturing">ERPNext Manufacturing</a></li>
                     <li><a href="/">ERPNext Retail</a></li>
                   </ul>
                 </li>

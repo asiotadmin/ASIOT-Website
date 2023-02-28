@@ -29,6 +29,43 @@ a:hover{cursor:pointer}
 
 
 /* Navbar css */
+.preloader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 999999;
+  background: -webkit-linear-gradient(left, #009cde 0, #1658d0 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.spinner-grow {
+  left: 50% !important;
+  top: 50% !important;
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-bottom;
+  background-color: currentColor;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-animation: spinner-grow .75s linear infinite;
+  animation: spinner-grow .75s linear infinite;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+  margin: -1px;
+}
 .sec-heading{text-align:center;font-size:40px;padding:1.5em 0;margin:0}
 #topHeader{padding:1em 4em;font-family:'Roboto',sans-serif;background:#fff;position:fixed!important;top:0!important;margin:0;z-index:999999;width:100%}
 #topInfo{padding:0;margin-top:10px;text-align:right;color:#2E2E2E}
@@ -290,7 +327,7 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
 .LMS-para {margin: 150px 0 0 110px;}
 .Lms-section2{background:#FEF9E8 url(../src/assets/Lms-section2.webp) no-repeat;background-size: 100%;padding-bottom: 35px;}
 .Lms-section2 h2{font-weight: 700;font-size: 42px;line-height: 52px;letter-spacing: -0.03em;font-feature-settings: 'ss01' on;color: #000000;text-align: center;margin: 170px 0 50px 0;}
-.Lms-section3 h2,.Lms-section4 h2{font-weight: 700;font-size: 42px;line-height: 52px;letter-spacing: -0.03em;font-feature-settings: 'ss01' on;color: #000000;text-align: center;margin: 50px 0 50px 0;}
+.Lms-section3 h2,.Lms-section4 h2,.erp-manusection3 h2{font-weight: 700;font-size: 42px;line-height: 52px;letter-spacing: -0.03em;font-feature-settings: 'ss01' on;color: #000000;text-align: center;margin: 50px 0 50px 0;}
 .module-box img{width: 70px;height: 70px;}
 .module-box{text-align: center;}
 .Lms-section3 {padding-bottom:0;background: #F3F4FB;}
@@ -300,6 +337,21 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
 .feature-box p{font-weight: 400;font-size: 20px;line-height: 30px;letter-spacing: -0.24px;color: #4F5E77;}
 .Lms-section4{background: #FEF9E8; padding-bottom: 35px;}
 .feature-box img{width: 86px;height: 86px;}
+
+
+/* Manufacturing page */
+
+.erp-manusection1{background: url(../src/assets/Hero.webp) no-repeat;background-size: 100%;padding-bottom: 35px;height: 850px;}
+.erp-manusection1 p{font-weight: 400;font-size: 26px;line-height: 36px;letter-spacing: -0.24px;color: #343A50; padding: 20px 700px 0 20px;}
+.erp-manusection1 h1 {padding-left: 20px;background: linear-gradient(92.82deg, #250AC2 -24.57%, #F70079 96.45%);font-weight: 700;font-size: 40px;line-height: 55px;letter-spacing: -0.0604403px;color: #fff;margin: 150px 0 0 0;width: 52%;}
+.erp-manusection1 .Sign-up-free-btn{margin: 20px;}
+.erp-manusection1 h5{padding: 20px 665px 0 20px;font-weight: 500;font-size: 19px;line-height: 30px;letter-spacing: -0.0604403px;color: #636981;}
+.Manufacturing_line {width: 315px;height: 4px;padding-left: 20px;margin-bottom: 20px;}
+.erp-manusection2 h2 {font-weight: 700;font-size: 40px;line-height: 55px;letter-spacing: -0.0604403px;color:#000;margin-top: 50px;}
+.erp-manusection2 p{font-weight: 400;font-size: 20px;line-height: 30px;color: #5E5C66;margin:25px 0 25px 0;padding-right: 50px;}
+.Manufacturing1{width:100%;margin-top: 60%;}
+.erp-manusection4,.erp-manusection3 {background: none;}
+
 
 /* ALL RESPONSIVE CSS STARTS */
 @media screen and (max-width: 1536px){
@@ -319,6 +371,10 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
   .Healthcare_line {width: 275px;}
   .LMS_people {width: 620px;height: 488px;margin-top: 150px;}
   .LMS-para{margin: 100px 0 0 110px;}
+  .erp-manusection1{height: 670px;}
+  .erp-manusection1 h1{margin: 100px 0 0 0;}
+  .module-box img {width: 55px;height: 55px;}
+  .feature-box img {width: 65px;height: 65px;}
 }
 
 @media only screen and (max-width: 1366px){
@@ -345,8 +401,8 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
   .Sign-up-free-btn{height:45px;line-height:45px;font-size:14px;padding:0 25px;width:145px}
   .Healthcare-section3 p,.Healthcare-section4 p{font-size:16px;line-height:24px}
   .Hospital-img{height:290px;width:460px}
-  button.accordion{height:54px;line-height:15px;font-size:16px;width:60%;padding:20px 15px 15px 40px}
-  .accordion-content{width:60%;margin:0 auto 10px}
+  button.accordion{height:54px;line-height:15px;font-size:16px;width:65%;padding:20px 15px 15px 40px}
+  .accordion-content{width:65%;margin:0 auto 10px}
   section.Healthcare-section5 h2{padding-bottom:20px}
   .accordion-content p{text-align:left;padding:20px 15px 15px 40px;font-size:14px;line-height:24px}
   button.accordion:after,button.accordion.is-open:after{height:15px;background-size:50%}
@@ -389,6 +445,12 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
   .hero .animated_div{margin-top:50px;width:38%}
   nav>ul{margin-right:240px}
   .overlay{height: 715px;}
+  .erp-manusection1 h1 {margin: 80px 0 0 0; width: 62%;}
+  .erp-manusection1 p {font-size: 20px;line-height: 28px;padding: 20px 650px 0 20px;}
+  .erp-manusection1 h5 {padding: 0 665px 0 20px;font-size: 16px;line-height: 26px;}
+  .erp-manusection2 p {font-size: 16px;line-height: 26px;}
+  .erp-manusection1 {height: 575px;}
+  .erp-manusection2 h2 {font-size: 36px;line-height: 40px;}
 }
 
 @media (max-width: 991px){
@@ -396,8 +458,7 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
   .Healthcare-section1 .row{flex-direction:column;width:100%}
   .Healthcare-section3 p,.Healthcare-section4 p{font-size:16px;line-height:24px;padding:0}
   .Healthcare-section2 h2,.Healthcare-section3 h2,.Healthcare-section5 h2,.Healthcare-section4 h2{font-weight:600;font-size:36px;line-height:48px}
-  button.accordion{width:80%}
-  .accordion-content{width:80%}
+  button.accordion,.accordion-content{width:100%}
   .Hospital-img{height:230px;width:315px;float:left;margin-top:80px}
   .healthcare-img{margin-top:0}
   .Healthcare_line2{margin-left:50px}
@@ -442,6 +503,12 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
   .Animation-btn{margin:0 0 30px}
   .hero .animated_div{width:65%}
   .features{padding:0}
+  .erp-manusection1{height: auto;}
+  .erp-manusection1 h1 {margin: 15px 0 0 0;width: auto;}
+  .erp-manusection1 p {padding: 10px 290px 0 15px;margin-bottom: 5px;}
+  .Manufacturing_line {width: 315px;height: 4px;padding-left: 15px;margin-bottom: 10px;}
+  .erp-manusection1 h5 {padding: 0 370px 0 20px;}
+  .erp-manusection1 .Sign-up-free-btn {margin: 5px 20px; padding-bottom: 50px;}
 }
 @media (max-width: 767px){
 .Lms-section2 h2 {font-size: 35px;line-height: 34px;margin: 80px 0 40px 0;}
@@ -488,6 +555,16 @@ section{padding:0 1em 1em}
 .hero p{font-size:26px}
 .hero .animated_div{width:100%}
 .logo a{margin:0}
+.erp-manusection1{background: none;}
+.erp-manusection1 h1{line-height: 46px;padding: 15px;text-align: center;font-style: italic;border-radius: 10px;}
+.erp-manusection1 p {padding: 15px 15px 5px 15px;margin-bottom: 5px;}
+.erp-manusection1 h5 {padding: 0 15px;}
+.erp-manusection1 .Sign-up-free-btn {margin: 5px auto;}
+.erp-manusection2 h2 {margin: 0;}
+.erp-manusection2 p {padding: 0;}
+.Manufacturing1{margin: 0;}
+section.erp-manusection5.Healthcare-section5 {padding-top: 0;}
+.Manufacturing_line {width: 165px;}
 }
 @media only screen and (max-width: 480px){
 }
