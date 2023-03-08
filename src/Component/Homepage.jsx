@@ -12,7 +12,6 @@ import blog5 from "../assets/blog5.webp";
 import blog6 from "../assets/blog6.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
@@ -116,10 +115,8 @@ const Homepage = () => {
               <div className="features-info">
                 <h2>Frappe/ERPNext</h2>
                 <p>
-                  Open source ERP software to integrate tasks, boosts
-                  productivity, &amp; leverages data in real-time. Integrate
-                  product planning, development, manufacturing, sales, HR &amp;
-                  more.
+                  Open source ERP software to integrate tasks, erpnext customer portal, & leverages data in real-time. Integrate
+                  product planning, erpnext security, manufacturing, erpnext inventory , erpnext consultant , erpnext ecommerce & more.
                 </p>
                 <a
                   href="/erpnext-software"
@@ -305,59 +302,68 @@ const Homepage = () => {
           </div>
           <div className="row">
             <div className="col-md-4 text-dark">
+              <div className="blog-bg">
               <img src={blog1} alt="blog1" />
               <div className="Blog_text">
                 <a href="/">
-                  Building a LMS App for Educational Sectors Has Become So Much
-                  Easier than Before!
+                 Mining for Twitter Clusters: Social Network Analysis With erpnext git
                 </a>
+              </div>
               </div>
             </div>
             <div className="col-md-4 text-dark">
+              <div className="blog-bg">
               <img src={blog2} alt="blog1" />
               <div className="Blog_text">
                 <a href="/">
-                  Building a LMS App for Educational Sectors Has Become So Much
-                  Easier than Before!
+                The 10 Most Common JavaScript Issues Developers Face
                 </a>
               </div>
+              </div>
+            
             </div>
             <div className="col-md-4 text-dark">
+              <div className="blog-bg">
               <img src={blog3} alt="blog1" />
               <div className="Blog_text">
                 <a href="/">
-                  Building a LMS App for Educational Sectors Has Become So Much
-                  Easier than Before!
+                How to Approach Writing an Interpreter From Scratch
                 </a>
               </div>
+              </div>
+              
             </div>
           </div>
           <div className="row">
             <div className="col-md-4 text-dark">
+              <div className="blog-bg">
               <img src={blog4} alt="blog1" />
               <div className="Blog_text">
-                <a href="/">
-                  Building a LMS App for Educational Sectors Has Become So Much
-                  Easier than Before!
+              <a href="/">
+                People, Product, and Technology: A Beginner’s Guide to Engineering Management
                 </a>
               </div>
+              </div>
+             
             </div>
             <div className="col-md-4 text-dark">
+              <div className="blog-bg">
               <img src={blog5} alt="blog1" />
               <div className="Blog_text">
                 <a href="/">
-                  Building a LMS App for Educational Sectors Has Become So Much
-                  Easier than Before!
+              Creating Live Dashboards With ERPNext and Python
                 </a>
+              </div>
               </div>
             </div>
             <div className="col-md-4 text-dark">
+              <div className="blog-bg">
               <img src={blog6} alt="blog1" />
               <div className="Blog_text">
-                <a href="/">
-                  Building a LMS App for Educational Sectors Has Become So Much
-                  Easier than Before!
+              <a href="/">
+              The 10 Most Common dolibarr vs erpnext points
                 </a>
+              </div>
               </div>
             </div>
           </div>

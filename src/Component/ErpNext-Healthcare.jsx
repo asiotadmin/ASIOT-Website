@@ -225,7 +225,7 @@ const ErpNext_healthcare = () => {
                         <h2>ERPNext for <span className='Purple_span'>Hospital Industry</span></h2>
                         <div className="col-md-12">
                             <p>The healthcare industry is ever evolving and faces a lot of challenges, hence the need of leveraging the innovative technology to streamline operational processes. An open-source ERPNext solution integrates all the data, breaks down silos and streamlines various departments like Accounting, Inventory, CRM, HR, Sales and purchase and so on.</p>
-                            <p>ERPNext Healthcare Solution is a complete set to plan, execute and manage multiple tasks in the Hospitals such as: Appointment Booking, Treatment Plan, Cash Flow, Outflow, Inventory Management & many more. Centralizing all data with multiple branches, it brings a great level of accuracy in various operations of Healthcare Industries.</p>
+                            <p>ERPNext Healthcare Solution is a complete set to plan, erpnext healthcare module and manage multiple tasks in the Hospitals such as: Appointment Booking, Treatment Plan, Cash Flow, Outflow, Inventory Management & many more. Centralizing all data with multiple branches, it brings a great level of accuracy in various operations of Healthcare Industries.</p>
                         </div>
                     </div>
                 </div>
@@ -331,14 +331,14 @@ const ErpNext_healthcare = () => {
                         <h2>Frequently Asked<span className="Purple_span"> Questions</span></h2>
                         <div className="col-md-12">
                             <div className="Faq-accordion">
-                                <button className="accordion">Which is the Best ERP System for Healthcare?</button>
+                                <button className="accordion">Which version of erpnext contains healthcare module?</button>
                                 <div className="accordion-content">
                                     <p>
                                         ERPNext is the best healthcare management software for hospital industry, clinics,
                                         and
                                         dispensaries. It comes with customization features which help the businesses to have
                                         a
-                                        system based on the specific requirements.
+                                        system based on the specific requirements (v-13 and above).
                                     </p>
                                 </div>
 

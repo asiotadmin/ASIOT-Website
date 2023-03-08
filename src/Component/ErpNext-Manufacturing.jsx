@@ -26,16 +26,16 @@ const ErpNext_manufacturing = () => {
     return (
         <>
             <Helmet>
-                <title>ERPNext for Healthcare Industry - ASIOT</title>
-                <meta name="description" content="The ERPNext healthcare software enables hospitals and clinics to manage patient appointments, billing, and patient records with high accuracy. Get your own ERPNext software for your healthcare business today!" />
-                <meta name="title" content="ERPNext for Healthcare Industry - ASIOT" />
+                <title>ERPNext Solution for Manufacturing Industry</title>
+                <meta name="description" content="Get ERPNext manufacturing software for your small, medium, and large businesses. Streamline your operations & boost efficiency with ERPNext's powerful features." />
+                <meta name="title" content="ERPNext Solution for Manufacturing Industry" />
             </Helmet>
             <section className='erp-manusection1'>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
                             <h1>ERPNext Manufacturing Industry</h1>
-                            <p>Automate core manufacturing processes and business with open source ERP software</p>
+                            <p>Automate core manufacturing process erpnext and business with open source software</p>
 
                             <img src={Manuline} alt="ERPNEXT_main" className='Manufacturing_line' />
 
@@ -57,7 +57,7 @@ const ErpNext_manufacturing = () => {
                         <div className="col-md-8">
                             <h2>ERPNext for Manufacturing</h2>
                             <p>ERPNext software for Manufacturing caters to the needs of manufacturing businesses of all forms and sizes. The cloud ERP software offers industry-specific capabilities and features to direct, manage, control, track, automate and collaborate every operation in the manufacturing process, from raw materials to shipment of the order. It enables processes to smoothly carry out everyday manufacturing processes and operations,manage critical aspects and create a completely unified business platform.</p>
-                            <p>The manufacturing cloud ERP management software increases organizational efficiency and productivity of an enterprise by automating and improving how resources are utilized. Like any other sector, the manufacturing industry faces a lot of challenges like managing supply chains. Vendor management, controlling costs, quality assurance, production tracking and optimizing inventory levels. Our custom made open source ERP solution meets these challenges and exceeds the expectations of clients. NestorBird’s ERPNext software offers smart solutions for manufacturers like configure-to-order, make-to-order and assemble-to-order products.</p>
+                            <p>The erpnext manufacturing demo cloud ERP management software increases organizational efficiency and productivity of an enterprise by automating and improving how resources are utilized. Like any other sector, the manufacturing industry faces a lot of challenges like managing supply chains. Vendor management, controlling costs, quality assurance, production tracking and optimizing inventory levels. Our custom made open source ERP solution meets these challenges and exceeds the expectations of clients. ASIOT ERPNext software offers smart solutions for manufacturers like configure-to-order, make-to-order and assemble-to-order products.</p>
                         </div>
                         <div className="col-md-4">
                             <img src={Manufacturing1} alt="ERPNEXT_main" className='Manufacturing1' />
@@ -132,7 +132,7 @@ const ErpNext_manufacturing = () => {
                             <div className="feature-box">
                                 <img src={manufeature2} alt="erp-features" />
                                 <h5>Enhanced Agility</h5>
-                                <p>Create appealing listings for your product to sell online.</p>
+                                <p>Create appealing listings erpnext include item in manufacture.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -204,7 +204,7 @@ const ErpNext_manufacturing = () => {
                                     </p>
                                 </div>
 
-                                <button className="accordion">Which ERP Software is the Best for Manufacturing Business?</button>
+                                <button className="accordion">Which manufacturing erpnext Software is the Best for Manufacturing Business?</button>
                                 <div className="accordion-content">
                                     <p>
                                         ERPNext Manufacturing has gained tremendous popularity as one of the best software to manage business workflows like tracking invoices, payments, key performance indicators (KPIs), customer queries, employee payrolls, quotes, budgets, and expenses.
