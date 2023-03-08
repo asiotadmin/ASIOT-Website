@@ -352,6 +352,48 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
 .Manufacturing1{width:100%;margin-top: 60%;}
 .erp-manusection4,.erp-manusection3 {background: none;}
 
+/* Retail Page */
+
+.erpretail-page{background: #303030; z-index: -1;} 
+.Retail-section1{padding-right: 0;padding-top: 100px;}
+.Retail-section1 img{float: right;}
+.Retail-section1 h1{font-weight: 700;font-size: 48px;line-height: 65px;color: #FFFFFF;padding-top: 120px;}
+.Retail-section1 p{font-weight: 600;font-size: 32px;line-height: 48px;color: rgba(255, 255, 255, 0.7);padding-bottom: 25px;}
+.Retail-section1 .Retail-link{font-weight: 600;font-size: 24px;line-height: 33px;text-transform: uppercase;color: #E91E63; text-decoration: none;}
+.Retail-section1 .Retail-link2{font-weight: 600;font-size: 24px;line-height: 33px;text-align: center;text-transform: uppercase;color: #FF9800;border: 2px solid #FF9800;border-radius: 39px;padding: 10px 20px 10px 20px;margin-left: 30px; text-decoration: none;}
+.Retail-section1 .Retail-link2:hover {background: #fff; color: #000 !important; border: 2px solid #000;}
+.Retail-section1 .Retail-link:hover{color: #fff !important;}
+.Retail-section1 img{width: 680px;height: 361px;}
+.Retail-section1 .retail-row2{margin-top: 100px;}
+.Retail-section1 .col-md-6{padding-right: 0;}
+.Retail-section1 h3{font-weight: 600;font-size: 28px;line-height: 42px;color: #FFFFFF;padding: 0 45px;}
+.Retail-section1 h5{font-weight: 400;font-size: 18px;line-height: 24px;color: #FFFFFF;padding:0 45px;}
+.Retail-section1 .right-border{border-right: 1px solid rgba(255, 255, 255, 0.12);}
+.Retail-section2 h2{font-weight: 600;font-size: 48px;line-height: 72px;text-align: center;color: #FFFFFF;}
+.Retail-section2 .section2-img1{width: 481px;height: 547px;margin-top: 50px;}
+.bottom-span{border-radius: 17px;border-bottom:12px solid #AD1457 ;}
+.Retail-section2 h3{font-weight: 700;font-size: 32px;line-height: 44px;color: #FFFFFF;}
+.Retail-section2 p{font-weight: 400;font-size: 24px;line-height: 36px;color: #FFFFFF;}
+.Retail-section2 .pos-heading{margin-top: 200px;}
+.Retail-section2 .inventory-heading{margin-top: 200px;text-align: right;}
+.Retail-section2 .inventory-para{text-align: right;}
+.video-container {width: 640px;border-radius: 4px;margin: 0 auto;position: relative;display: flex;flex-direction: column;justify-content: center;box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);border-radius: 18px;}
+.video-container .video-wrapper {width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;border-radius: 17px;}
+.video-container video {width: 100%;height: 100%;border-radius: 16px;}
+.Retail-section3 h2,.Retail-section4 h2,.Testimonial h2{font-weight: 700;font-size: 32px;line-height: 44px;text-align: center;color: #FFFFFF;margin: 25px 0;}
+.Retail-section3 p{font-weight: 400;font-size: 24px;line-height: 33px;text-align: center;color: #FFFFFF; margin-top: 15px;}
+.Retail-section3 {background: url(../src/assets/Retail-section3.webp) no-repeat;background-size: 100%;padding-bottom: 60px;height: auto;background-position: 0px 120px;}
+.Counter{margin: 100px 0; width: 902px;height: 108px;}
+.Slider-retail{width: 514px;height: 460px;}
+.section2-img2{width: 704px;height: 505px;}
+.Gallery {margin-top:50px;width: 1218px; height:730px;}
+.Testimonial .swiper{margin-top: 50px;}
+.Testimonial .swiper p,.Testimonial .swiper h3{color: #fff;margin-top: 15px;}
+.Retail-section3 .success-para1{margin-top: 130px;}
+.Testimonial .text-center h2{padding: 40px 0;font-size: 42px;}
+.Join-now{background: #E91E63;border-radius: 39px;font-weight: 600;font-size: 24px;line-height: 33px;padding: 14px 24px;text-align: center;text-transform: uppercase;color: #FFFFFF;text-decoration: none;}
+
+
 
 /* ALL RESPONSIVE CSS STARTS */
 @media screen and (max-width: 1536px){
@@ -451,9 +493,41 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
   .erp-manusection2 p {font-size: 16px;line-height: 26px;}
   .erp-manusection1 {height: 575px;}
   .erp-manusection2 h2 {font-size: 36px;line-height: 40px;}
-}
+  .Retail-section1 p {font-size: 22px;line-height: 34px;}}
+  .Retail-section1 .Retail-link {font-size: 20px;}
+  .Retail-section1 .Retail-link2 {font-size: 14px;}
+  .Retail-section1 h3{font-size:22px}
+  .Retail-section2 p{font-weight:400;font-size:20px;line-height:30px}
+  .Retail-section1 img{width:640px;height:320px}
+  .Retail-section2 .section2-img1{width:461px;height:500px;margin-top:50px}
+  .section2-img2{width:650px;height:456px}
+  .Counter{margin:90px 0;width:790px;height:95px}
+  .Retail-section3 p,.Join-now{font-size:18px}
+  .Slider-retail{width:475px;height:425px}
+  .Gallery{margin-top:50px;width:1040px;height:632px}
+  .Retail-section3 .success-para1{margin-top:165px}
+  .Retail-section1 h5{font-size:16px}
+  .Retail-section2 h2{font-size:36px}
+
+
 
 @media (max-width: 991px){
+  .Retail-section1 img{width:350px;height:220px;float:left}
+  .Retail-section1 h1{padding-top:0}
+  .Retail-section1 p{font-size:18px;line-height:28px}
+  .Retail-section1 h5{font-size:16px;padding:0}
+  .Retail-section1 h3{font-size:18px;padding:0;line-height:28px}
+  .Retail-section2 .section2-img1{width:430px;height:486px}
+  .Retail-section2 .pos-heading{margin-top:160px}
+  .section2-img2{width:360px;height:334px}
+  .Retail-section2 .inventory-heading{margin-top:95px}
+  .Retail-section2 p{font-weight:400;font-size:18px;line-height:26px}
+  .Retail-section1{padding:60px 2em 2em}
+  .Retail-section2 h3{font-size:22px}
+  .Counter{width:670px;height:95px}
+  .Gallery{margin-top:50px;width:688px;height:510px}
+  .Slider-retail{width:310px;height:auto;margin-top: 70px;}
+  .Retail-section3 .success-para1{margin-top:60px;text-align:left}
   .stream-line,.overlay{position:relative}
   .Healthcare-section1 .row{flex-direction:column;width:100%}
   .Healthcare-section3 p,.Healthcare-section4 p{font-size:16px;line-height:24px;padding:0}
@@ -510,7 +584,24 @@ button.accordion.is-open{border-radius: 4px 4px 0 0;}
   .erp-manusection1 h5 {padding: 0 370px 0 20px;}
   .erp-manusection1 .Sign-up-free-btn {margin: 5px 20px; padding-bottom: 50px;}
 }
+
+
 @media (max-width: 767px){
+.Retail-section2 .pos-heading {margin-top: 40px;}
+.Retail-section2 .inventory-heading {margin-top: 40px;text-align: left;}
+.section2-img2 {width: 308px;height: 288px;}
+.Retail-section3 h2, .Retail-section4 h2, .Testimonial h2,.Retail-section2 h2 {font-size: 26px;line-height: 34px;}
+.Retail-section3 p {line-height: 28px;}
+.video-container {width: 315px;}
+.Counter {width: 300px;margin-top: 35px;height: auto;}
+.Gallery {margin-top: 50px;width: 310px;height: auto;}
+.Testimonial .text-center h2 {padding: 0;font-size: 32px;}
+.Testimonial .swiper p{margin-top: 50px;}
+.Retail-section2 .inventory-para{text-align: left;}
+.Retail-section2 .section2-img1 {width: 308px;height: auto;margin: 0;}
+.Slider-retail {height: auto;}
+.Retail-section1 h1 {line-height: 58px;}
+.Retail-section1 img {width: 309px;height: 215px;}
 .Lms-section2 h2 {font-size: 35px;line-height: 34px;margin: 80px 0 40px 0;}
 .healthcare-para.LMS-para {margin: 0 !important;}
 .Healthcare-section3 {background: linear-gradient(125.36deg, #F1FFFD 16.24%, #E9F3FF 75.51%);padding: 20px;}

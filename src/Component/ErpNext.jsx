@@ -17,16 +17,13 @@ import blog3 from "../assets/blog3.webp";
 import blog4 from "../assets/blog4.webp";
 import blog5 from "../assets/blog5.webp";
 import blog6 from "../assets/blog6.webp";
-
-
-
 const ErpNext = () => {
     return (
         <>
             <Helmet>
                 <title>ASIOT - ErpNext</title>
-                <meta name="description" content="ErpNext page" />
-                <meta name="title" content="ErpNext page" />
+                <meta name="description" content="ERPNext is an open-source ERP software designed for small and medium-sized businesses. It includes modules for accounting, inventory, project management, HR, and more. Try it out today for free!" />
+                <meta name="title" content="Open Source ERPNext Software for Small Business" />
             </Helmet>
             <section className='ERP_section1' id='intro'>
                 <div className="row">
@@ -161,7 +158,7 @@ const ErpNext = () => {
                         <div className="col-md-4">
                             <div className="specific-module">
                             <h4>ERPNext E-Learning</h4>
-                            <p>The ERPNExt Software is custom designed to handle sales POS for food; room inventory services.</p>
+                            <p>The ERPNext sopify is custom designed to handle sales POS for food; room inventory services.</p>
                              <img src={specific} alt="ERPNEXT_main" className='specific-img'/>
 
                             </div>
